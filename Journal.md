@@ -1,2 +1,2 @@
 # Journal
-The Abstract Factory makes sure the equipment matches because each factory creates a full set. The Warrior factory always gives a Sword and Plate Armor, while the Mage factory gives a Staff and Robe. This keeps mismatched equipment from being created.
+In Phase 4 I used the abstract types EnemySpawner and Enemy in Main instead of depending directly on specific enemy classes. The spawners handle which enemies and equipment are created. This makes it easier to add new spawners or enemies later without changing as much code.

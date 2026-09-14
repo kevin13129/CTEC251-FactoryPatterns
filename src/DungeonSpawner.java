@@ -4,11 +4,11 @@ public class DungeonSpawner extends EnemySpawner {
     protected Enemy createEnemy(String type) {
 
         if (type.equals("skeleton")) {
-            return new Skeleton();
+            return new Skeleton(new MageEquipmentFactory());
         }
 
         if (type.equals("slime")) {
-            return new Slime();
+            return new Slime(new MageEquipmentFactory());
         }
 
         return null;

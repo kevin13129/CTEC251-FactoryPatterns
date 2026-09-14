@@ -1,6 +1,6 @@
-public class Goblin extends Enemy {
+public class Wolf extends Enemy {
 
-    public Goblin(EquipmentFactory equipmentFactory) {
+    public Wolf(EquipmentFactory equipmentFactory) {
         super(equipmentFactory);
     }
 
