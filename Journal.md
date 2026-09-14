@@ -1,2 +1,2 @@
 # Journal
-Moving the enemy creation into SimpleEnemyFactory keeps Main from needing to directly create Goblin or Skeleton objects. Main just asks the factory for an Enemy. This makes it easier to add something like Slime later because the creation logic stays in one place instead of being spread through the program.
+The Abstract Factory makes sure the equipment matches because each factory creates a full set. The Warrior factory always gives a Sword and Plate Armor, while the Mage factory gives a Staff and Robe. This keeps mismatched equipment from being created.
