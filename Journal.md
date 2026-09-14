@@ -1,2 +1,2 @@
 # Journal
-Moving the enemy creation into SimpleEnemyFactory keeps Main from needing to directly create Goblin or Skeleton objects. Main just asks the factory for an Enemy. This makes it easier to add something like Slime later because the creation logic stays in one place instead of being spread through the program.
+Using inheritance lets each spawner handle its own enemy types. If I added something like MountainSpawner later, I could create a new class for it without changing ForestSpawner or DungeonSpawner.
