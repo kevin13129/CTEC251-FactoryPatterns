@@ -1,2 +1,2 @@
 # Journal
-Write your Journal questions and notes here.
+Moving the enemy creation into SimpleEnemyFactory keeps Main from needing to directly create Goblin or Skeleton objects. Main just asks the factory for an Enemy. This makes it easier to add something like Slime later because the creation logic stays in one place instead of being spread through the program.
